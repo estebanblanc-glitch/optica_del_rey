@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Óptica del Rey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div class="admin-auth" id="admin-auth">
+      <form class="admin-auth__card" id="admin-auth-form">
+        <p class="admin-eyebrow">Acceso</p>
+        <h1>Panel Admin</h1>
+        <p>Ingresá la contraseña simple para editar la web.</p>
+        <label>
+          Contraseña
+          <input id="admin-password-input" type="password" autocomplete="current-password" required />
+        </label>
+        <button class="admin-button admin-button-primary" type="submit">Entrar</button>
+        <p class="admin-auth__hint" id="admin-auth-hint"></p>
+      </form>
+    </div>
+
+    <main class="admin-shell">
+      <aside class="admin-sidebar">
+        <p class="admin-eyebrow">Panel admin</p>
+        <h1>Óptica del Rey</h1>
+        <p>Editá textos, sucursales, productos e imágenes por ruta o URL. Los cambios se guardan en este navegador.</p>
+        <div class="admin-sidebar__actions">
+          <a class="admin-button admin-button-primary" href="index.html">Ver sitio</a>
+          <button class="admin-button" type="button" id="export-data">Exportar site-data.json</button>
+          <label class="admin-button admin-button-file" for="import-file">Importar site-data.json</label>
+          <input id="import-file" type="file" accept="application/json" hidden />
+          <button class="admin-button" type="button" id="reset-data">Restaurar base</button>
+          <button class="admin-button" type="button" id="logout-admin">Cerrar admin</button>
+        </div>
+        <p class="admin-help">Para imágenes propias, subilas a la carpeta assets y escribí por ejemplo assets/mi-foto.jpg.</p>
+        <div class="admin-status" id="admin-status">Sin cambios guardados todavía.</div>
+
+        <section class="admin-password-panel">
+          <p class="admin-eyebrow">Contraseña</p>
+          <label>
+            Nueva contraseña
+            <input id="new-admin-password" type="password" autocomplete="new-password" />
+          </label>
+          <button class="admin-button" type="button" id="change-admin-password">Cambiar contraseña</button>
+        </section>
+      </aside>
+
+      <section class="admin-content">
+        <form id="admin-form" class="admin-form">
+          <section class="admin-panel admin-preview-panel">
+            <div class="admin-panel__header admin-panel__header--row">
+              <div>
+                <p class="admin-eyebrow">Vista previa</p>
+                <h2>Web en tiempo real</h2>
+              </div>
+              <div class="admin-preview-actions">
+                <button class="admin-button" type="button" id="refresh-preview">Actualizar vista previa</button>
+                <a class="admin-button admin-button-primary" href="index.html" target="preview-site">Abrir vista completa</a>
+              </div>
+            </div>
+            <p class="admin-preview-note" id="preview-status">La vista previa se actualiza automáticamente mientras editás.</p>
+            <div class="admin-preview-frame-wrap">
+              <iframe id="preview-frame" class="admin-preview-frame" src="index.html" title="Vista previa del sitio"></iframe>
+            </div>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">General</p>
+              <h2>Marca y textos principales</h2>
+            </div>
+            <div class="admin-grid admin-grid-2">
+              <label>
+                Nombre del negocio
+                <input id="business-name" type="text" />
+              </label>
+              <label>
+                Descripción SEO
+                <input id="business-description" type="text" />
+              </label>
+              <label>
+                Hero eyebrow
+                <input id="hero-eyebrow" type="text" />
+              </label>
+              <label>
+                Hero título
+                <input id="hero-title" type="text" />
+              </label>
+              <label>
+                Hero subtítulo
+                <input id="hero-subtitle" type="text" />
+              </label>
+              <label class="admin-grid-span-2">
+                Hero texto corto
+                <input id="hero-note" type="text" />
+              </label>
+              <label>
+                Stock eyebrow
+                <input id="stock-eyebrow" type="text" />
+              </label>
+              <label>
+                Sobre nosotros eyebrow
+                <input id="about-eyebrow" type="text" />
+              </label>
+              <label>
+                Sobre nosotros título
+                <input id="about-title" type="text" />
+              </label>
+              <label>
+                Texto sobre nosotros
+                <textarea id="about-text" rows="4"></textarea>
+              </label>
+              <label>
+                Highlight tag
+                <input id="provider-tag" type="text" />
+              </label>
+              <label>
+                Highlight título
+                <input id="provider-title" type="text" />
+              </label>
+              <label class="admin-grid-span-2">
+                Highlight texto
+                <textarea id="provider-text" rows="4"></textarea>
+              </label>
+              <label>
+                Redes eyebrow
+                <input id="social-eyebrow" type="text" />
+              </label>
+              <label>
+                Texto de contacto
+                <textarea id="contact-text" rows="4"></textarea>
+              </label>
+              <label>
+                Contacto eyebrow
+                <input id="contact-eyebrow" type="text" />
+              </label>
+              <label>
+                Contacto título
+                <input id="contact-title" type="text" />
+              </label>
+              <label class="admin-grid-span-2">
+                Nota contacto
+                <input id="contact-note" type="text" />
+              </label>
+              <label>
+                Label medios de pago
+                <input id="payment-label" type="text" />
+              </label>
+              <label>
+                Label beneficio social
+                <input id="payment-benefit-label" type="text" />
+              </label>
+              <label>
+                Badge BPS
+                <input id="payment-benefit-badge" type="text" />
+              </label>
+              <label>
+                Texto BPS
+                <input id="payment-benefit-text" type="text" />
+              </label>
+              <label class="admin-grid-span-2">
+                Métodos de pago separados por coma
+                <input id="payment-methods" type="text" />
+              </label>
+              <label>
+                Título redes
+                <input id="social-title" type="text" />
+              </label>
+              <label>
+                Texto redes
+                <textarea id="social-text" rows="4"></textarea>
+              </label>
+            </div>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Links</p>
+              <h2>Redes y botones</h2>
+            </div>
+            <div class="admin-grid admin-grid-2">
+              <label>
+                URL Instagram
+                <input id="link-instagram" type="url" />
+              </label>
+              <label>
+                URL Facebook
+                <input id="link-facebook" type="url" />
+              </label>
+              <label>
+                CTA hero
+                <input id="hero-button-label" type="text" />
+              </label>
+              <label>
+                Mensaje hero WhatsApp
+                <input id="hero-button-message" type="text" />
+              </label>
+              <label>
+                CTA stock
+                <input id="stock-button-label" type="text" />
+              </label>
+              <label>
+                Mensaje stock WhatsApp
+                <input id="stock-button-message" type="text" />
+              </label>
+              <label>
+                CTA contacto
+                <input id="contact-button-label" type="text" />
+              </label>
+              <label>
+                Mensaje contacto WhatsApp
+                <input id="contact-button-message" type="text" />
+              </label>
+              <label>
+                CTA footer WhatsApp
+                <input id="footer-whatsapp-label" type="text" />
+              </label>
+              <label>
+                Mensaje footer WhatsApp
+                <input id="footer-whatsapp-message" type="text" />
+              </label>
+            </div>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Catálogo global</p>
+              <h2>Franja de confianza y filtros</h2>
+            </div>
+            <div class="admin-grid admin-grid-2">
+              <label class="admin-grid-span-2">
+                Items de franja destacados separados por coma
+                <textarea id="trust-items" rows="3"></textarea>
+              </label>
+              <label class="admin-grid-span-2">
+                Filtros del catálogo separados por coma
+                <textarea id="catalog-filters" rows="3"></textarea>
+              </label>
+            </div>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Stock</p>
+              <h2>Resumen y filtros</h2>
+            </div>
+            <div class="admin-grid admin-grid-2">
+              <label>
+                Título stock
+                <input id="stock-title" type="text" />
+              </label>
+              <label>
+                Texto stock
+                <textarea id="stock-text" rows="4"></textarea>
+              </label>
+            </div>
+            <div id="stock-stats-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="stock-stat">Agregar estadística</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Promociones</p>
+              <h2>Ofertas y campañas editables</h2>
+            </div>
+            <p class="admin-panel__intro">Cada promoción muestra imagen, badge, CTA y mensaje directo a WhatsApp.</p>
+            <div id="promotions-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="promotion">Agregar promoción</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Sucursales</p>
+              <h2>Locales, horarios y promos</h2>
+            </div>
+            <div id="branches-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="branch">Agregar sucursal</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Catálogo</p>
+              <h2>Productos editables para consulta</h2>
+            </div>
+            <p class="admin-panel__intro">Usá Subir y Bajar para decidir qué producto aparece primero en el catálogo público.</p>
+            <div id="products-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="product">Agregar producto</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Categorías</p>
+              <h2>Bloques principales del sitio</h2>
+            </div>
+            <div id="categories-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="category">Agregar categoría</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Beneficios</p>
+              <h2>Motivos para elegir la óptica</h2>
+            </div>
+            <div id="benefits-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="benefit">Agregar beneficio</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Testimonios</p>
+              <h2>Reseñas y prueba social</h2>
+            </div>
+            <p class="admin-panel__intro">Usá textos cortos, claros y reales para que la sección se vea creíble.</p>
+            <div id="testimonials-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="testimonial">Agregar testimonio</button>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel__header">
+              <p class="admin-eyebrow">Redes</p>
+              <h2>Tarjetas visuales sociales</h2>
+            </div>
+            <div id="highlights-editor" class="admin-stack"></div>
+            <button class="admin-add" type="button" data-add="highlight">Agregar tarjeta</button>
+          </section>
+
+          <div class="admin-submit-bar">
+            <button class="admin-button admin-button-primary" type="submit">Guardar cambios</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>

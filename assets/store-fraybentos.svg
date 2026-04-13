@@ -1,0 +1,13 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#EAF0F5"/>
+  <rect y="560" width="1200" height="240" fill="#D6E0EA"/>
+  <rect x="170" y="190" width="860" height="370" rx="30" fill="#F8F4EC"/>
+  <rect x="210" y="150" width="780" height="90" rx="20" fill="#101114"/>
+  <rect x="260" y="280" width="220" height="170" rx="18" fill="#DDE6EF"/>
+  <rect x="490" y="280" width="220" height="170" rx="18" fill="#DDE6EF"/>
+  <rect x="720" y="280" width="220" height="170" rx="18" fill="#DDE6EF"/>
+  <rect x="510" y="452" width="180" height="108" rx="18" fill="#0F3B66"/>
+  <circle cx="1030" cy="130" r="86" fill="#C79A3B" fill-opacity="0.24"/>
+  <text x="302" y="208" fill="#F8F4EC" font-family="Arial, sans-serif" font-size="52" letter-spacing="6">FRAY BENTOS</text>
+  <text x="346" y="382" fill="#0F3B66" font-family="Arial, sans-serif" font-size="38">OPTICA DEL REY</text>
+</svg>

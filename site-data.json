@@ -1,0 +1,1218 @@
+{
+  "business": {
+    "name": "Óptica del Rey",
+    "description": "Óptica del Rey ofrece lentes modernos, cómodos y de alta calidad, cristales y lentes de contacto con atención personalizada por WhatsApp.",
+    "heroEyebrow": "Colección destacada",
+    "heroTitle": "Óptica del Rey",
+    "heroSubtitle": "Lentes de calidad con diseño moderno",
+    "heroNote": "Sol, receta, cristales y lentes de contacto en un solo lugar",
+    "heroButtonLabel": "Consultar por WhatsApp",
+    "heroButtonMessage": "Hola quiero asesoramiento sobre lentes, cristales o lentes de contacto",
+    "stockEyebrow": "Atención personalizada",
+    "stockTitle": "Todo para tu visión y tu estilo",
+    "stockText": "Trabajamos con una selección amplia de armazones, cristales y lentes de contacto. Escribinos y te confirmamos opciones, colores y disponibilidad.",
+    "stockButtonLabel": "Consultar stock completo",
+    "stockButtonMessage": "Hola quiero consultar stock y disponibilidad",
+    "aboutEyebrow": "Sobre nosotros",
+    "aboutTitle": "Óptica del Rey",
+    "aboutText": "En Óptica del Rey ofrecemos lentes modernos, cómodos y de alta calidad, además de cristales y lentes de contacto con asesoramiento personalizado.",
+    "providerTag": "Atención destacada",
+    "providerTitle": "Asesoramiento real",
+    "providerText": "Te ayudamos a elegir el modelo, el cristal o la solución de contacto ideal según tu necesidad.",
+    "socialEyebrow": "Redes sociales",
+    "socialTitle": "Instagram y Facebook como vidriera diaria de la óptica",
+    "socialText": "Mostramos novedades, atención en local y líneas destacadas para Mercedes y Fray Bentos. Desde redes derivamos consultas directas por WhatsApp.",
+    "contactEyebrow": "Contacto",
+    "contactTitle": "Consultá y cerrá tu compra por WhatsApp",
+    "contactText": "Respondemos consultas sobre modelos, cristales, lentes de contacto, disponibilidad, colores, sucursal y asesoramiento para elegir mejor.",
+    "contactNote": "Elegí la sucursal más cercana y respondemos directo por WhatsApp.",
+    "contactButtonLabel": "Consultar por WhatsApp",
+    "contactButtonMessage": "Hola quiero hacer una consulta sobre productos ópticos",
+    "paymentLabel": "Medios de pago",
+    "paymentMethods": [
+      "VISA",
+      "Mastercard",
+      "OCA",
+      "ANDA",
+      "Débito",
+      "Efectivo"
+    ],
+    "paymentBenefitLabel": "Beneficio social",
+    "paymentBenefitBadge": "BPS",
+    "paymentBenefitText": "Aceptamos beneficios ópticos del BPS",
+    "footerWhatsappLabel": "Hablar por WhatsApp",
+    "footerWhatsappMessage": "Hola quiero información sobre productos ópticos"
+  },
+  "links": {
+    "instagram": "https://www.instagram.com/opticadelrey/",
+    "facebook": "https://www.facebook.com/opticadelreyuy"
+  },
+  "trustItems": [
+    "Lentes de sol",
+    "Receta",
+    "Cristales",
+    "Lentes de contacto"
+  ],
+  "stockStats": [
+    {
+      "value": "49+",
+      "label": "modelos de sol y receta"
+    },
+    {
+      "value": "16+",
+      "label": "opciones en cristales"
+    },
+    {
+      "value": "17+",
+      "label": "alternativas en contacto"
+    }
+  ],
+  "catalogFilters": [
+    "Todos",
+    "Sol",
+    "Receta",
+    "Cristales",
+    "Lentes de contacto",
+    "Nuevos ingresos",
+    "Colección nueva",
+    "Más consultados"
+  ],
+  "categories": [
+    {
+      "title": "Lentes de sol",
+      "text": "Modelos con presencia premium, livianos y listos para destacar cualquier look.",
+      "badge": "Protección + estilo"
+    },
+    {
+      "title": "Lentes ópticos",
+      "text": "Diseños elegantes y cómodos para uso diario, trabajo o estudio.",
+      "badge": "Comodidad diaria"
+    },
+    {
+      "title": "Cristales",
+      "text": "Opciones con tratamientos y terminaciones pensadas para mejorar confort y rendimiento visual.",
+      "badge": "Visión precisa"
+    },
+    {
+      "title": "Lentes de contacto",
+      "text": "Alternativas diarias, mensuales y productos de mantenimiento con asesoramiento personalizado.",
+      "badge": "Practicidad total"
+    },
+    {
+      "title": "Nuevos ingresos",
+      "text": "Selección inspirada en tendencias actuales y colecciones modernas.",
+      "badge": "Última colección"
+    }
+  ],
+  "promotions": [
+    {
+      "title": "Promo de temporada",
+      "badge": "Vigente",
+      "image": "assets/product-01.svg",
+      "buttonLabel": "Consultar promo",
+      "text": "Consultá por beneficios vigentes en lentes de sol y receta seleccionados en ambas sucursales.",
+      "message": "Hola quiero consultar las promociones vigentes"
+    },
+    {
+      "title": "Cristales con tratamientos",
+      "badge": "Cristales",
+      "image": "assets/product-05.svg",
+      "buttonLabel": "Consultar cristales",
+      "text": "Opciones con antirreflejo, filtro azul y fotocromático según tu receta y tu rutina diaria.",
+      "message": "Hola quiero consultar opciones de cristales"
+    },
+    {
+      "title": "Lentes de contacto",
+      "badge": "Contacto",
+      "image": "assets/product-02.svg",
+      "buttonLabel": "Consultar contacto",
+      "text": "Te asesoramos en reposición, uso diario o mensual y productos de mantenimiento.",
+      "message": "Hola quiero consultar por lentes de contacto"
+    }
+  ],
+  "branches": [
+    {
+      "city": "Mercedes",
+      "number": "59892216734",
+      "localNumber": "092 216 734",
+      "address": "Artigas 279, semipeatonal",
+      "image": "assets/local-interior.jpeg",
+      "hours": "8:30 a 12:30 y 14:30 a 18:30",
+      "copy": "Un local pensado para atención cercana, asesoramiento visual y entrega rápida en el centro de Mercedes.",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Artigas+279+Mercedes+Uruguay",
+      "promoTitle": "Promos por WhatsApp",
+      "promoText": "Consultá ingresos nuevos, campañas vigentes y opciones disponibles para Mercedes."
+    },
+    {
+      "city": "Fray Bentos",
+      "number": "59898990622",
+      "localNumber": "098 990 622",
+      "address": "18 de Julio 2030",
+      "image": "assets/marca-cartel.jpeg",
+      "hours": "8:30 a 12:30 y 14:30 a 18:30",
+      "copy": "Atención personalizada para receta, cristales, sol y contacto, con seguimiento directo por WhatsApp desde Fray Bentos.",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=18+de+Julio+2030+Fray+Bentos+Uruguay",
+      "promoTitle": "Promos y novedades",
+      "promoText": "Escribinos para consultar modelos nuevos, disponibilidad y oportunidades vigentes en Fray Bentos."
+    }
+  ],
+  "products": [
+    {
+      "name": "Arnette Sol AN4161",
+      "description": "Modelo solar con línea urbana, ideal para quienes buscan presencia liviana y cómoda.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN4161"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Sol AN4178",
+      "description": "Diseño solar moderno con buena cobertura y estilo actual para uso diario.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an417825936q.jpg",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/an417825936q.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/an41782594n0.jpg"
+      ],
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN4178"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2023",
+      "description": "Opción solar de perfil urbano, pensada para destacar con una estética limpia y contemporánea.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s60886g.jpg",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s60886g.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s606355.jpg"
+      ],
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2023"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Polar Sol K607",
+      "description": "Modelo solar versátil con alternativas de color y una imagen fresca para todos los días.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60777.JPG",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/k60777.JPG",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/k60719.JPG",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/k60708.JPG"
+      ],
+      "tags": [
+        "Sol",
+        "Polar",
+        "Múltiples colores"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Receta RX7047",
+      "description": "Armazón de receta square, cómodo y elegante para oficina, estudio o uso diario.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047810054.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047201254.jpg"
+      ],
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "Square"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN6005",
+      "description": "Armazón de receta liviano y actual, ideal para quienes buscan comodidad y diseño moderno.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an60055805216.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN6005"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7164",
+      "description": "Referencia de receta con impronta actual y consulta disponible para ambas sucursales.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7164"
+      ],
+      "category": "Nuevos ingresos"
+    },
+    {
+      "name": "Cristales Antirreflejo Premium",
+      "description": "Pensados para reducir reflejos y mejorar la comodidad visual en pantallas, manejo y uso diario.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Antirreflejo",
+        "Confort visual"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales con Filtro Azul",
+      "description": "Opción recomendada para quienes pasan muchas horas frente a pantallas y buscan mayor descanso visual.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Filtro azul",
+        "Pantallas"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Fotocromáticos",
+      "description": "Se adaptan a cambios de luz para una experiencia práctica entre interior y exterior.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Fotocromáticos",
+        "Versátiles"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Lentes de Contacto Diarios",
+      "description": "Alternativa cómoda y práctica para uso puntual o rutina diaria con recambio frecuente.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Diarios",
+        "Comodidad"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Mensuales",
+      "description": "Opciones para uso continuo con asesoramiento según graduación, rutina y cuidados.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Mensuales",
+        "Asesoramiento"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Soluciones y Accesorios para Contacto",
+      "description": "Complementos para limpieza, conservación y mantenimiento de tus lentes de contacto.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Soluciones",
+        "Cuidado"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Arnette Sol AN4260",
+      "description": "Línea solar deportiva con buen ajuste y estética contemporánea para uso urbano.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an4260014v.jpg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN4260"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB3025",
+      "description": "Modelo icónico de aviador para quienes buscan una silueta clásica y atemporal.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rb3025w087958.jpg",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rb3025w087958.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rb3025l020558.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rb3025l282358.jpg"
+      ],
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB3025"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO2795",
+      "description": "Opción solar de moda con líneas limpias y una presencia liviana para uso diario.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/vo2795s21744853.jpg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO2795"
+      ],
+      "category": "Nuevos ingresos"
+    },
+    {
+      "name": "Emporio Armani Receta EA3109",
+      "description": "Armazón óptico elegante para combinar estilo profesional y comodidad prolongada.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ea31095603.jpg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3109"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RB2132",
+      "description": "Montura óptica versátil con diseño moderno para rutina laboral o estudio.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rb213290158.jpg",
+      "images": [
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rb213290158.jpg",
+        "https://grupoaltavista.com.uy/storage/products/thumbnails/rb21329015855.jpg"
+      ],
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RB2132"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Cristales Alta Definición HD",
+      "description": "Cristales orientados a mayor nitidez y contraste, ideales para uso intensivo.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "HD",
+        "Nitidez"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Lentes de Contacto Tóricos",
+      "description": "Alternativas para corrección de astigmatismo con adaptación guiada por el equipo.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Tóricos",
+        "Astigmatismo"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Multifocales",
+      "description": "Diseñados para visión cercana e inmedia con asesoramiento personalizado.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/727ce679412dfa88caaa8ea1a27d401c.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Multifocales",
+        "Confort"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Ray-Ban Sol RB2140",
+      "description": "Modelo Wayfarer clásico con gran presencia y uso urbano diario.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rb21409015850.jpg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2140"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB0360S",
+      "description": "Diseño moderno con carácter y excelente cobertura para exteriores.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB0360S"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB2231",
+      "description": "Línea nueva con impronta actual para looks urbanos.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2231"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2045S",
+      "description": "Opción de sol actual con estilo urbano y ajuste cómodo.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2045S"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2050S",
+      "description": "Armazón solar de líneas limpias para uso diario y salida.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2050S"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Sol AN7158",
+      "description": "Diseño liviano y juvenil con estética fresca y moderna.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN7158"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Sol AN7169",
+      "description": "Referencia solar con presencia deportiva y comodidad prolongada.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN7169"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO2845",
+      "description": "Modelo femenino con líneas elegantes y presencia de moda.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO2845"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO2864",
+      "description": "Estilo actual para uso diario con excelente balance visual.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO2864"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Polar Sol K610",
+      "description": "Lente solar versátil con múltiples combinaciones de color.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60719.JPG",
+      "tags": [
+        "Sol",
+        "Polar",
+        "K610"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Receta RX7140",
+      "description": "Armazón de receta liviano y refinado para uso prolongado.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX7140"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RX3447V",
+      "description": "Diseño redondo con personalidad clásica y actual.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX3447V"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN6001",
+      "description": "Modelo de receta cómodo, resistente y moderno.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN6001"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7148",
+      "description": "Armazón óptico con impronta juvenil y gran confort.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7148"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Emporio Armani Receta EA3035",
+      "description": "Diseño elegante para quienes buscan perfil profesional.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3035"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Emporio Armani Receta EA3047",
+      "description": "Montura premium con líneas limpias y excelente ajuste.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3047"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Armani Exchange Receta AX1061",
+      "description": "Armazón óptico urbano, ideal para oficina o estudio.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Armani Exchange",
+        "AX1061"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Armani Exchange Receta AX1071",
+      "description": "Modelo de receta sobrio y cómodo para uso diario.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Armani Exchange",
+        "AX1071"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Vogue Receta VO5412",
+      "description": "Armazón de receta elegante con estilo contemporáneo.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Vogue",
+        "VO5412"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Cristales Antirreflejo Plus",
+      "description": "Mayor confort visual y reducción de reflejos en pantalla.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Antirreflejo",
+        "Plus"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Filtro Azul Pro",
+      "description": "Protección mejorada para largas jornadas frente a pantallas.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Filtro azul",
+        "Pro"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Fotocromáticos Pro",
+      "description": "Transición rápida entre interior y exterior con comodidad.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Fotocromáticos",
+        "Pro"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Policarbonato Resistente",
+      "description": "Alta resistencia para uso activo y mayor seguridad.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Policarbonato",
+        "Resistente"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Ocupacionales Oficina",
+      "description": "Optimización visual para distancias cortas e intermedias.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Ocupacionales",
+        "Oficina"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Progresivos Premium",
+      "description": "Visión fluida para diferentes distancias con gran confort.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Progresivos",
+        "Premium"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Lentes de Contacto Optimum Comfort",
+      "description": "Uso diario con alto confort y buena hidratación.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Optimum",
+        "Comfort"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Alcon Total",
+      "description": "Excelente estabilidad visual y confort para jornada extensa.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Alcon",
+        "Total"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Avizor Daily",
+      "description": "Alternativa práctica para rutina dinámica y uso confiable.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Avizor",
+        "Daily"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Bi-Oh Soft",
+      "description": "Buen desempeño para quienes priorizan comodidad continua.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/727ce679412dfa88caaa8ea1a27d401c.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Bi-Oh",
+        "Soft"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto para Astigmatismo Plus",
+      "description": "Opciones para astigmatismo con ajuste guiado por el equipo.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Astigmatismo",
+        "Tóricos"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Kit Solución + Estuche Premium",
+      "description": "Kit completo de mantenimiento para conservar tus lentes.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Soluciones",
+        "Kit"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Nuevos Ingresos Vogue VO2847",
+      "description": "Nuevo modelo de temporada con líneas de moda.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Nuevos ingresos",
+        "Vogue",
+        "VO2847"
+      ],
+      "category": "Nuevos ingresos"
+    },
+    {
+      "name": "Nuevos Ingresos Emporio Armani EA4034",
+      "description": "Línea recién llegada con estilo premium.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Nuevos ingresos",
+        "Emporio Armani",
+        "EA4034"
+      ],
+      "category": "Nuevos ingresos"
+    },
+    {
+      "name": "Ray-Ban Sol RB2289",
+      "description": "Ray-Ban sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2289",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB2242",
+      "description": "Ray-Ban sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2242",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB2216",
+      "description": "Ray-Ban sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2216",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB2218",
+      "description": "Ray-Ban sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB2218",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2035S",
+      "description": "Armani Exchange sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2035S",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2042S",
+      "description": "Armani Exchange sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2042S",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2027S",
+      "description": "Armani Exchange sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2027S",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Sol AN7147",
+      "description": "Arnette sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN7147",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Sol AN7146",
+      "description": "Arnette sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN7146",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO2846",
+      "description": "Vogue sol con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO2846",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Receta RX6517",
+      "description": "Ray-Ban receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX6517",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RX7225",
+      "description": "Ray-Ban receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX7225",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RX4378V",
+      "description": "Ray-Ban receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX4378V",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Emporio Armani Receta EA3008",
+      "description": "Emporio Armani receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3008",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Emporio Armani Receta EA3015",
+      "description": "Emporio Armani receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3015",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Emporio Armani Receta EA3032",
+      "description": "Emporio Armani receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Emporio Armani",
+        "EA3032",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Armani Exchange Receta AX1074",
+      "description": "Armani Exchange receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Armani Exchange",
+        "AX1074",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Armani Exchange Receta AX1073",
+      "description": "Armani Exchange receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Armani Exchange",
+        "AX1073",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN6017",
+      "description": "Arnette receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN6017",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Vogue Receta VO5414",
+      "description": "Vogue receta con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Vogue",
+        "VO5414",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Cristales Ultralivianos 1.67",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "CL167",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Ultralivianos 1.74",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "CL174",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Drive Nocturno",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "DRIVE-N",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Alto Impacto Sport",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "SPORT-HI",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Office Plus",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "OFF-PLUS",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Digital FreeForm",
+      "description": "Cristales cristales con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Cristales",
+        "DGF-FR",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Lentes de Contacto Semanales",
+      "description": "Optimum lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Optimum",
+        "LC-SEMANAL",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Hidrogel Plus",
+      "description": "Alcon lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Alcon",
+        "LC-HPLUS",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Silicona Premium",
+      "description": "Avizor lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Avizor",
+        "LC-SILP",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Lentes de Contacto Multifocal Plus",
+      "description": "Bi-Oh lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/727ce679412dfa88caaa8ea1a27d401c.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Bi-Oh",
+        "LC-MFPLUS",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Pack Reposición Contacto 6u",
+      "description": "Optimum lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Optimum",
+        "PK-6U",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Solución Premium 360ml",
+      "description": "Avizor lentes de contacto con diseño actual, alto confort y asesoramiento personalizado en sucursal.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Avizor",
+        "SOL-360",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    }
+  ],
+  "benefits": [
+    "Lentes de calidad premium",
+    "Diseños modernos y actuales",
+    "Opciones en cristales y lentes de contacto",
+    "Atención personalizada"
+  ],
+  "testimonials": [
+    {
+      "name": "María S.",
+      "review": "Excelente atención y modelos muy lindos. Me ayudaron a elegir por WhatsApp y fue rapidísimo."
+    },
+    {
+      "name": "Joaquín R.",
+      "review": "La calidad se nota desde el primer momento. Muy buenos materiales y diseño moderno."
+    },
+    {
+      "name": "Lucía P.",
+      "review": "Consulté por cristales y me orientaron muy bien. El proceso fue simple y muy claro."
+    }
+  ],
+  "socialHighlights": [
+    {
+      "title": "Facebook de la óptica",
+      "text": "Optica del Rey, Mercedes (Uruguay). Presencia activa para mostrar novedades y contacto local.",
+      "badge": "Facebook",
+      "image": "https://scontent.fmvd2-1.fna.fbcdn.net/v/t39.30808-1/301482738_470975505043822_1216383544879970921_n.jpg?stp=dst-jpg_tt6&cstp=mx690x690&ctp=s690x690&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bj9RUwdJ4SkQ7kNvwFGHOcO&_nc_oc=Adrpqylv3YvcP3YTq_eOsNpp91kro75HG9W0QVR_99NiRAyPiNJfJUqTfqyk7zqOlwc&_nc_zt=24&_nc_ht=scontent.fmvd2-1.fna&_nc_ss=7a389&oh=00_Af3RgEmsKuH0HEgV-IlmWRhpPmlXkk5gHMD3l3XpxeOrcw&oe=69DDB189"
+    },
+    {
+      "title": "Locales y atención",
+      "text": "Mostrá la experiencia real en Mercedes y Fray Bentos con fotos del mostrador, exhibición y atención al cliente.",
+      "badge": "Presencia local",
+      "image": "assets/local-interior.jpeg"
+    },
+    {
+      "title": "Nuevos ingresos",
+      "text": "Publicá cada modelo nuevo que llega para generar consultas rápidas desde la historia o el feed.",
+      "badge": "Contenido comercial",
+      "image": "assets/product-04.svg"
+    },
+    {
+      "title": "Recetas, cristales y sol",
+      "text": "Alterná publicaciones entre receta, cristales y sol para captar tanto compra funcional como compra por estilo.",
+      "badge": "Conversión",
+      "image": "assets/product-05.svg"
+    },
+    {
+      "title": "Asesoramiento cercano",
+      "text": "Usá el perfil para mostrar recomendaciones, tendencias y contacto directo por WhatsApp.",
+      "badge": "Confianza",
+      "image": "assets/marca-cartel.jpeg"
+    }
+  ]
+}

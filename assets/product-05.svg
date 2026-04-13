@@ -1,0 +1,8 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="36" fill="#EAF0F7"/>
+  <path d="M0 470C146 408 260 389 342 412C428 436 530 486 800 396V600H0V470Z" fill="#0F3B66" fill-opacity="0.08"/>
+  <path d="M154 278C154 237.131 187.131 204 228 204H336C376.869 204 410 237.131 410 278V328C410 368.869 376.869 402 336 402H228C187.131 402 154 368.869 154 328V278Z" stroke="#0F3B66" stroke-width="13"/>
+  <path d="M390 278C390 237.131 423.131 204 464 204H572C612.869 204 646 237.131 646 278V328C646 368.869 612.869 402 572 402H464C423.131 402 390 368.869 390 328V278Z" stroke="#0F3B66" stroke-width="13"/>
+  <path d="M394 300H406" stroke="#0F3B66" stroke-width="10" stroke-linecap="round"/>
+  <text x="78" y="520" fill="#101114" font-family="Arial, sans-serif" font-size="42">Urban Navy</text>
+</svg>

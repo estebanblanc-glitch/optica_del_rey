@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Óptica del Rey ofrece lentes modernos, cómodos y de alta calidad con atención personalizada y venta por WhatsApp." />
+    <title>Óptica del Rey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="floating-whatsapp js-open-whatsapp" href="#contacto" data-message="Hola quiero información sobre los lentes" aria-label="Consultar por WhatsApp">
+      <span>WhatsApp</span>
+    </a>
+
+    <div class="whatsapp-modal" id="whatsapp-modal" aria-hidden="true">
+      <div class="whatsapp-modal__backdrop" data-close-whatsapp="true"></div>
+      <div class="whatsapp-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="whatsapp-modal-title">
+        <button class="whatsapp-modal__close" type="button" data-close-whatsapp="true" aria-label="Cerrar selector de sucursal">×</button>
+        <p class="eyebrow">WhatsApp</p>
+        <h2 id="whatsapp-modal-title">Elegí una sucursal</h2>
+        <p class="whatsapp-modal__text">Seleccioná la sede para continuar tu consulta por WhatsApp.</p>
+        <div class="whatsapp-modal__preview">
+          <span>Mensaje listo para enviar</span>
+          <p id="message-preview"></p>
+        </div>
+        <div class="whatsapp-modal__actions" id="branch-options"></div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de Óptica del Rey">
+          <img class="brand-mark" src="assets/logo-optica-del-rey.jpeg" alt="Logo de Óptica del Rey" />
+          <span class="js-brand-name">Óptica del Rey</span>
+        </a>
+        <nav class="main-nav" aria-label="Principal">
+          <a href="#promociones">Promociones</a>
+          <a href="#sucursales">Sucursales</a>
+          <a href="#stock">Stock</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#instagram">Redes</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow" id="hero-eyebrow">Colección destacada</p>
+          <h1 id="hero-title">Óptica del Rey</h1>
+          <p class="hero-subtitle" id="hero-subtitle">Lentes de calidad con diseño moderno</p>
+          <p class="hero-note" id="hero-note">Sol, receta, cristales y lentes de contacto en un solo lugar</p>
+          <div class="hero-actions">
+            <a class="button button-primary js-open-whatsapp" id="hero-button" href="#contacto" data-message="Hola quiero asesoramiento sobre lentes">Consultar por WhatsApp</a>
+            <a class="button button-secondary" href="#catalogo">Ver modelos</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Fortalezas">
+            <li>
+              <strong>Premium</strong>
+              <span>Materiales y acabados de calidad</span>
+            </li>
+            <li>
+              <strong>Actual</strong>
+              <span>Diseños modernos para cada estilo</span>
+            </li>
+            <li>
+              <strong>Directo</strong>
+              <span>Atención rápida por WhatsApp</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trust-strip reveal" aria-label="Marcas y respaldo">
+        <div class="container trust-strip__inner" id="trust-strip-items">
+          <span>Trabajamos con</span>
+          <strong>soluciones ópticas para cada necesidad</strong>
+        </div>
+      </section>
+
+      <section class="section stock-section" id="stock">
+        <div class="container stock-layout reveal">
+          <div class="stock-copy">
+            <p class="eyebrow" id="stock-eyebrow">Stock sincronizado</p>
+            <h2 id="stock-title">Todo para tu visión y tu estilo</h2>
+            <p id="stock-text">Trabajamos con una selección amplia de armazones, cristales y lentes de contacto. Escribinos y te confirmamos opciones, colores y disponibilidad.</p>
+            <a class="button button-primary js-open-whatsapp" id="stock-button" href="#contacto" data-message="Hola quiero consultar stock y disponibilidad">Consultar stock completo</a>
+          </div>
+          <div class="stock-stats" id="stock-stats"></div>
+        </div>
+      </section>
+
+      <section class="section promos-section" id="promociones">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Promociones</p>
+            <h2>Ofertas y beneficios para consultar</h2>
+            <p>Mostramos campañas vigentes, novedades destacadas y opciones especiales en lentes, cristales y lentes de contacto.</p>
+          </div>
+          <div class="promotions-grid" id="promotions-grid"></div>
+        </div>
+      </section>
+
+      <section class="section branches-section" id="sucursales">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Sucursales</p>
+            <h2>Dos locales para atenderte mejor</h2>
+            <p>Presencia local, atención personalizada y contacto directo con cada sucursal según tu zona.</p>
+          </div>
+          <div class="branches-grid" id="branches-grid"></div>
+        </div>
+      </section>
+
+      <section class="section categories-section reveal" id="categorias">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Categorías</p>
+            <h2>Elegí el estilo ideal para vos</h2>
+          </div>
+          <div class="categories-grid" id="categories-grid"></div>
+        </div>
+      </section>
+
+      <section class="section catalog-section" id="catalogo">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Catálogo</p>
+            <h2>Sol, receta, cristales y lentes de contacto</h2>
+            <p>Elegí la línea que te interese y escribinos para consultar disponibilidad, opciones y asesoramiento según tu necesidad.</p>
+          </div>
+          <div class="catalog-toolbar reveal">
+            <label class="catalog-search">
+              <span>Buscar</span>
+              <input id="catalog-search" type="search" placeholder="Modelo, marca o código" />
+            </label>
+            <label class="catalog-filter-select">
+              <span>Marca</span>
+              <select id="catalog-brand">
+                <option value="all">Todas las marcas</option>
+              </select>
+            </label>
+            <label class="catalog-filter-select">
+              <span>Tipo de lente</span>
+              <select id="catalog-lens-type">
+                <option value="all">Todos los tipos</option>
+              </select>
+            </label>
+            <label class="catalog-sort">
+              <span>Ordenar</span>
+              <select id="catalog-sort">
+                <option value="relevance">Relevancia</option>
+                <option value="az">Nombre A-Z</option>
+                <option value="za">Nombre Z-A</option>
+              </select>
+            </label>
+            <label class="catalog-favorites-toggle">
+              <input id="catalog-favorites-only" type="checkbox" />
+              <span>Solo favoritos</span>
+            </label>
+          </div>
+          <div class="catalog-controls reveal" id="catalog-controls"></div>
+          <p class="catalog-results" id="catalog-results"></p>
+          <div class="catalog-grid" id="product-grid"></div>
+          <div class="catalog-pagination" id="catalog-pagination"></div>
+        </div>
+      </section>
+
+      <section class="section benefits-section" id="beneficios">
+        <div class="container benefits-layout">
+          <div class="benefits-copy reveal">
+            <p class="eyebrow">Por qué elegirnos</p>
+            <h2>Confianza, estilo y atención personalizada</h2>
+            <p>Diseñamos una experiencia clara para que el cliente encuentre su modelo, sienta confianza y consulte en pocos segundos.</p>
+          </div>
+          <div class="benefits-grid" id="benefits-grid"></div>
+        </div>
+      </section>
+
+      <section class="section testimonials-section reveal" id="testimonios">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Testimonios</p>
+            <h2>Lo que dicen nuestros clientes</h2>
+          </div>
+          <div class="testimonials-grid" id="testimonials-grid"></div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="nosotros">
+        <div class="container about-layout">
+          <div class="about-card reveal">
+            <p class="eyebrow" id="about-eyebrow">Sobre nosotros</p>
+            <h2 id="about-title">Óptica del Rey</h2>
+            <p id="about-text">En Óptica del Rey ofrecemos lentes modernos, cómodos y de alta calidad, además de cristales y lentes de contacto con asesoramiento personalizado.</p>
+          </div>
+          <div class="about-highlight reveal">
+            <span class="highlight-tag" id="provider-tag">Atención destacada</span>
+            <strong id="provider-title">Asesoramiento real</strong>
+            <p id="provider-text">Te ayudamos a elegir el modelo, el cristal o la solución de contacto ideal según tu necesidad.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section instagram-section" id="instagram">
+        <div class="container instagram-layout">
+          <div class="instagram-copy reveal">
+            <p class="eyebrow" id="social-eyebrow">Redes sociales</p>
+            <h2 id="social-title">Instagram y Facebook como vidriera diaria de la óptica</h2>
+            <p id="social-text">Mostramos novedades, atención en local y referencias destacadas para Mercedes y Fray Bentos. Desde redes derivamos consultas directas por WhatsApp.</p>
+            <div class="social-actions">
+              <a class="button button-primary" id="instagram-link" href="https://www.instagram.com/opticadelrey/" target="_blank" rel="noreferrer noopener">Ver Instagram</a>
+              <a class="button button-outline-dark" id="facebook-link" href="https://www.facebook.com/opticadelreyuy" target="_blank" rel="noreferrer noopener">Ver Facebook</a>
+            </div>
+          </div>
+          <div class="instagram-grid" id="instagram-grid"></div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacto">
+        <div class="container contact-layout reveal">
+          <div>
+            <p class="eyebrow" id="contact-eyebrow">Contacto</p>
+            <h2 id="contact-title">Consultá y cerrá tu compra por WhatsApp</h2>
+            <p id="contact-text">Respondemos consultas sobre modelos, cristales, lentes de contacto, disponibilidad, colores, sucursal y asesoramiento para elegir mejor.</p>
+          </div>
+          <div class="contact-card">
+            <a class="button button-primary button-block js-open-whatsapp" id="contact-button" href="#contacto" data-message="Hola quiero hacer una consulta sobre productos ópticos">Consultar por WhatsApp</a>
+            <div class="branch-list" id="contact-branches"></div>
+            <p class="contact-note" id="contact-note">Elegí la sucursal más cercana y respondemos directo por WhatsApp.</p>
+            <p><strong>Horarios:</strong> <span id="contact-hours"></span></p>
+            <p><strong>Direcciones:</strong> <span id="contact-addresses"></span></p>
+          </div>
+        </div>
+      </section>
+      <section class="payment-strip reveal" id="medios-de-pago" aria-label="Medios de pago aceptados">
+        <div class="container payment-strip__inner">
+          <div class="payment-group">
+            <p class="payment-group__label" id="payment-label">Medios de pago</p>
+            <div class="payment-chips" id="payment-methods"></div>
+          </div>
+          <div class="payment-divider" aria-hidden="true"></div>
+          <div class="payment-group">
+            <p class="payment-group__label" id="payment-benefit-label">Beneficio social</p>
+            <div class="payment-chips">
+              <span class="pay-chip pay-chip--bps" id="payment-benefit-badge">BPS</span>
+              <span class="payment-bps-text" id="payment-benefit-text">Aceptamos beneficios ópticos del BPS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bar">
+        <div class="footer-brand">
+          <img class="brand-mark" src="assets/logo-optica-del-rey.jpeg" alt="Logo de Óptica del Rey" />
+          <p class="js-brand-name">Óptica del Rey</p>
+        </div>
+        <div class="footer-links">
+          <a id="footer-instagram" href="https://www.instagram.com/opticadelrey/" target="_blank" rel="noreferrer noopener">Instagram</a>
+          <a id="footer-facebook" href="https://www.facebook.com/opticadelreyuy" target="_blank" rel="noreferrer noopener">Facebook</a>
+          <a class="js-open-whatsapp" id="footer-whatsapp" href="#contacto" data-message="Hola quiero información sobre productos ópticos">Hablar por WhatsApp</a>
+          <a href="admin.html">Admin</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="product-modal" id="product-modal" aria-hidden="true">
+      <div class="product-modal__backdrop" data-close-product-modal="true"></div>
+      <div class="product-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="product-modal-title">
+        <button class="product-modal__close" type="button" data-close-product-modal="true" aria-label="Cerrar detalle de producto">×</button>
+        <div class="product-modal__media">
+          <button class="product-modal__nav product-modal__nav--prev" id="product-modal-prev-image" type="button" aria-label="Imagen anterior">‹</button>
+          <img id="product-modal-image" src="" alt="" />
+          <button class="product-modal__nav product-modal__nav--next" id="product-modal-next-image" type="button" aria-label="Imagen siguiente">›</button>
+          <div class="product-modal__media-tools">
+            <span class="product-modal__counter" id="product-modal-counter">1/1</span>
+            <button class="product-modal__tool" id="product-modal-rotate" type="button">Pausar giro</button>
+            <button class="product-modal__tool" id="product-modal-zoom" type="button">Zoom</button>
+          </div>
+          <div class="product-modal__thumbs" id="product-modal-thumbs"></div>
+        </div>
+        <div class="product-modal__content">
+          <span class="category-badge" id="product-modal-badge"></span>
+          <h3 id="product-modal-title"></h3>
+          <p id="product-modal-description"></p>
+          <div class="product-modal__meta" id="product-modal-meta"></div>
+          <div class="product-modal__top-actions">
+            <button class="button button-outline-dark" id="product-modal-favorite" type="button">Guardar en favoritos</button>
+            <button class="button button-outline-dark" id="product-modal-share" type="button">Copiar link</button>
+          </div>
+          <p class="product-modal__feedback" id="product-modal-feedback"></p>
+          <div class="product-modal__actions">
+            <a class="button js-open-whatsapp" id="product-modal-whatsapp" href="#contacto" data-message="">Consultar por WhatsApp</a>
+          </div>
+          <div class="product-modal__related">
+            <p class="eyebrow">Relacionados</p>
+            <div class="product-modal__related-grid" id="product-modal-related"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

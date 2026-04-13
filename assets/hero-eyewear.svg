@@ -1,0 +1,11 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#0D1117"/>
+  <circle cx="1310" cy="180" r="220" fill="#C79A3B" fill-opacity="0.25"/>
+  <circle cx="240" cy="1020" r="260" fill="#0F3B66" fill-opacity="0.34"/>
+  <path d="M280 640C280 577.039 331.039 526 394 526H578C640.961 526 692 577.039 692 640V706C692 768.961 640.961 820 578 820H394C331.039 820 280 768.961 280 706V640Z" stroke="#F7F4EE" stroke-width="22"/>
+  <path d="M908 640C908 577.039 959.039 526 1022 526H1206C1268.96 526 1320 577.039 1320 640V706C1320 768.961 1268.96 820 1206 820H1022C959.039 820 908 768.961 908 706V640Z" stroke="#F7F4EE" stroke-width="22"/>
+  <path d="M690 674H908" stroke="#F7F4EE" stroke-width="18" stroke-linecap="round"/>
+  <path d="M296 582C380 618 474 636 578 636C682 636 742 600 814 600C886 600 946 636 1050 636C1154 636 1248 618 1332 582" stroke="#C79A3B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M254 552C354 506 459 482 568 482H598C701 482 743 512 800 512C857 512 899 482 1002 482H1032C1141 482 1246 506 1346 552" stroke="#3E4C5E" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <text x="160" y="190" fill="#F7F4EE" font-family="Arial, sans-serif" font-size="56" letter-spacing="8">OPTICA DEL REY</text>
+</svg>

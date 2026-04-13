@@ -1,0 +1,9 @@
+{
+  "name": "optica-del-rey",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "deploy:draft": "npx netlify-cli deploy --dir=.",
+    "deploy:prod": "npx netlify-cli deploy --prod --dir=."
+  }
+}

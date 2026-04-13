@@ -1,0 +1,8 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="36" fill="#E7DDD0"/>
+  <circle cx="622" cy="126" r="94" fill="#101114" fill-opacity="0.08"/>
+  <path d="M170 294C170 253.131 203.131 220 244 220H338C378.869 220 412 253.131 412 294V330C412 370.869 378.869 404 338 404H244C203.131 404 170 370.869 170 330V294Z" fill="#101114" fill-opacity="0.92"/>
+  <path d="M388 294C388 253.131 421.131 220 462 220H556C596.869 220 630 253.131 630 294V330C630 370.869 596.869 404 556 404H462C421.131 404 388 370.869 388 330V294Z" fill="#101114" fill-opacity="0.92"/>
+  <path d="M400 306H412" stroke="#C79A3B" stroke-width="10" stroke-linecap="round"/>
+  <text x="78" y="520" fill="#101114" font-family="Arial, sans-serif" font-size="42">Rey Solar</text>
+</svg>
