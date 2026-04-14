@@ -10,7 +10,7 @@
     "heroButtonMessage": "Hola quiero asesoramiento sobre lentes, cristales o lentes de contacto",
     "stockEyebrow": "Atención personalizada",
     "stockTitle": "Todo para tu visión y tu estilo",
-    "stockText": "Trabajamos con una selección amplia de armazones, cristales y lentes de contacto. Escribinos y te confirmamos opciones, colores y disponibilidad.",
+    "stockText": "Trabajamos con un catálogo amplio de armazones, cristales y lentes de contacto, con más de 120 alternativas para consultar por WhatsApp. Escribinos y te confirmamos opciones, colores y disponibilidad.",
     "stockButtonLabel": "Consultar stock completo",
     "stockButtonMessage": "Hola quiero consultar stock y disponibilidad",
     "aboutEyebrow": "Sobre nosotros",
@@ -55,15 +55,15 @@
   ],
   "stockStats": [
     {
-      "value": "49+",
+      "value": "73+",
       "label": "modelos de sol y receta"
     },
     {
-      "value": "16+",
+      "value": "24+",
       "label": "opciones en cristales"
     },
     {
-      "value": "17+",
+      "value": "25+",
       "label": "alternativas en contacto"
     }
   ],
@@ -1158,6 +1158,510 @@
         "Lentes de contacto",
         "Avizor",
         "SOL-360",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Arnette Sol AN4260",
+      "description": "Modelo solar deportivo con líneas actuales, cobertura cómoda y una presencia fuerte para todos los días.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an417825936q.jpg",
+      "tags": [
+        "Sol",
+        "Arnette",
+        "AN4260",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Giorgio Armani Sol AR6021",
+      "description": "Diseño solar refinado con perfil premium y terminación elegante para una imagen más sobria.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s60886g.jpg",
+      "tags": [
+        "Sol",
+        "Giorgio Armani",
+        "AR6021",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Giorgio Armani Sol AR8038",
+      "description": "Armazón solar de aire moderno y terminación liviana para quienes buscan elegancia y confort.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s606355.jpg",
+      "tags": [
+        "Sol",
+        "Giorgio Armani",
+        "AR8038",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Armani Exchange Sol AX2012",
+      "description": "Modelo urbano con frente liviano y look actual, pensado para combinar estilo y uso diario.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s60886g.jpg",
+      "tags": [
+        "Sol",
+        "Armani Exchange",
+        "AX2012",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO5582S",
+      "description": "Línea solar femenina con presencia moderna, color destacado y calce cómodo.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO5582S",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Vogue Sol VO5556S",
+      "description": "Opción solar de inspiración fashion con diseño envolvente y buena presencia en rostro.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Vogue",
+        "VO5556S",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ralph Sol RA4140",
+      "description": "Modelo solar liviano, elegante y versátil para quienes buscan una línea clásica actualizada.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Ralph",
+        "RA4140",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Ray-Ban Sol RB3025",
+      "description": "Referencia icónica con lectura moderna, ideal para sumar personalidad y protección diaria.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+      "tags": [
+        "Sol",
+        "Ray-Ban",
+        "RB3025",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Polar Sol K611",
+      "description": "Modelo solar flexible con variantes de color y una propuesta cómoda para uso intensivo.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60719.JPG",
+      "tags": [
+        "Sol",
+        "Polar",
+        "K611",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Polar Sol K629",
+      "description": "Diseño solar de espíritu joven, con buen calce y perfil versátil para distintos estilos.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60708.JPG",
+      "tags": [
+        "Sol",
+        "Polar",
+        "K629",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Equis Sol EQS402",
+      "description": "Armazón solar liviano con impronta urbana y combinación de colores consultable por sucursal.",
+      "image": "assets/product-02.svg",
+      "tags": [
+        "Sol",
+        "Equis",
+        "EQS402",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Carrera Sol CA301S",
+      "description": "Modelo solar de frente marcado y estilo decidido, pensado para quienes priorizan presencia.",
+      "image": "assets/product-03.svg",
+      "tags": [
+        "Sol",
+        "Carrera",
+        "CA301S",
+        "Más consultados"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Karün Sol KRU100",
+      "description": "Alternativa solar con diseño contemporáneo, terminación cuidada y estética sustentable.",
+      "image": "assets/product-01.svg",
+      "tags": [
+        "Sol",
+        "Karün",
+        "KRU100",
+        "Colección nueva"
+      ],
+      "category": "Sol"
+    },
+    {
+      "name": "Arnette Receta AN6001",
+      "description": "Armazón de receta liviano y moderno para jornada completa, estudio o trabajo.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an60055805216.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN6001",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN6017",
+      "description": "Propuesta óptica de líneas limpias y calce cómodo para uso diario prolongado.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an60055805216.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN6017",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7146",
+      "description": "Diseño óptico con espíritu actual, pensado para quienes buscan una montura funcional y joven.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7146",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7147",
+      "description": "Armazón cómodo con presencia urbana y terminación versátil para distintos rostros.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7147",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7148",
+      "description": "Montura óptica de estilo relajado con buen equilibrio entre ligereza y presencia.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7148",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Arnette Receta AN7158",
+      "description": "Referencia óptica moderna para uso intensivo, con líneas simples y cómodas.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+      "tags": [
+        "Receta",
+        "Arnette",
+        "AN7158",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Vogue Receta VO5654",
+      "description": "Modelo óptico con inspiración fashion, colores de armazón variados y muy buena presencia.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Vogue",
+        "VO5654",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Equis Receta EQ121",
+      "description": "Armazón de receta con frente liviano y variantes de color para consultas por sucursal.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Equis",
+        "EQ121",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ralph Receta RA7182U",
+      "description": "Opción óptica elegante en acetato, con líneas definidas y una lectura más sofisticada.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Receta",
+        "Ralph",
+        "RA7182U",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RX7140",
+      "description": "Montura de receta con impronta clásica y adaptación cómoda para uso cotidiano.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX7140",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Ray-Ban Receta RX6448",
+      "description": "Modelo metálico de receta con perfil fino y una estética atemporal que sigue funcionando muy bien.",
+      "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047810054.jpg",
+      "tags": [
+        "Receta",
+        "Ray-Ban",
+        "RX6448",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Vogue Receta VO5426",
+      "description": "Diseño óptico femenino con líneas suaves, buena liviandad y colores consultables por WhatsApp.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Receta",
+        "Vogue",
+        "VO5426",
+        "Más consultados"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Oakley Receta OX3217",
+      "description": "Armazón técnico con impronta deportiva y comodidad para uso prolongado.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Receta",
+        "Oakley",
+        "OX3217",
+        "Colección nueva"
+      ],
+      "category": "Receta"
+    },
+    {
+      "name": "Cristales BlueCut 1.56",
+      "description": "Tratamiento pensado para pantallas y rutina digital, con buena relación entre liviandad y protección.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "BlueCut",
+        "BC-156",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales BlueCut 1.60",
+      "description": "Versión refinada para graduaciones medias, con tratamiento azul y mejor terminación estética.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "BlueCut",
+        "BC-160",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Fotocromáticos Gray",
+      "description": "Opciones que se adaptan a la luz exterior para sumar confort y practicidad en movimiento.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Fotocromáticos",
+        "PHOTO-GRAY",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Fotocromáticos Brown",
+      "description": "Terminación cálida para exteriores, ideal para quienes buscan versatilidad en un mismo cristal.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Fotocromáticos",
+        "PHOTO-BROWN",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Transitions Signature",
+      "description": "Alternativa premium de adaptación lumínica con enfoque en confort, estética y rendimiento diario.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Transitions",
+        "TR-SIGN",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Antifatiga Office",
+      "description": "Pensados para lectura, oficina y pantallas, mejorando la experiencia en distancias cortas e intermedias.",
+      "image": "assets/product-06.svg",
+      "tags": [
+        "Cristales",
+        "Office",
+        "AF-OFF",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Progresivos HD",
+      "description": "Diseño progresivo de alta definición para una transición más natural entre distintas distancias.",
+      "image": "assets/product-04.svg",
+      "tags": [
+        "Cristales",
+        "Progresivos",
+        "PHD-01",
+        "Más consultados"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Cristales Polarizados Graduados",
+      "description": "Combinan corrección visual y reducción de reflejos para manejo, exterior y mayor confort.",
+      "image": "assets/product-05.svg",
+      "tags": [
+        "Cristales",
+        "Polarizados",
+        "POL-GRAD",
+        "Colección nueva"
+      ],
+      "category": "Cristales"
+    },
+    {
+      "name": "Optimum Daily Plus 30u",
+      "description": "Lentes de contacto diarios pensados para reposición simple, confort y uso ágil durante la semana.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Optimum",
+        "ODP-30",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Optimum Mensual Toric 3u",
+      "description": "Reposición mensual para astigmatismo con asesoramiento de curva, graduación y disponibilidad.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Optimum",
+        "OMT-3",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Alcon Total30",
+      "description": "Opción mensual premium con foco en hidratación sostenida y confort durante largas jornadas.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Alcon",
+        "TOTAL30",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Air Optix HydraGlyde",
+      "description": "Lentes mensuales con buen equilibrio entre oxigenación y comodidad para uso diario.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Alcon",
+        "AOHG",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Dailies AquaComfort Plus",
+      "description": "Alternativa diaria de uso práctico, ideal para quienes priorizan reposición simple y frescura.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Alcon",
+        "DACP",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "FreshLook Colorblends",
+      "description": "Lentes de contacto cosméticos con variantes de color para consulta según disponibilidad.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/727ce679412dfa88caaa8ea1a27d401c.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Bi-Oh",
+        "FLCB",
+        "Colección nueva"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Avizor Saline 350ml",
+      "description": "Solución de mantenimiento y enjuague para complementar la rutina diaria de lentes blandas.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Avizor",
+        "SAL-350",
+        "Más consultados"
+      ],
+      "category": "Lentes de contacto"
+    },
+    {
+      "name": "Biotrue Multi-Purpose 300ml",
+      "description": "Solución multipropósito para limpieza, conservación y comodidad en lentes de contacto blandas.",
+      "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+      "tags": [
+        "Lentes de contacto",
+        "Avizor",
+        "BIO-300",
         "Colección nueva"
       ],
       "category": "Lentes de contacto"
