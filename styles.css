@@ -1158,6 +1158,37 @@ a {
   gap: 8px;
 }
 
+.product-modal__service {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid rgba(198, 40, 40, 0.14);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(247, 240, 233, 0.92)),
+    radial-gradient(circle at top right, rgba(198, 40, 40, 0.09), transparent 58%);
+}
+
+.product-modal__service strong {
+  color: var(--accent-strong);
+  font-size: 0.96rem;
+}
+
+.product-modal__service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.product-modal__service-grid span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(95, 99, 107, 0.1);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .product-modal__related {
   margin-top: 6px;
 }

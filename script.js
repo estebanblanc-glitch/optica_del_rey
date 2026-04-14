@@ -48,6 +48,7 @@ const initializeSite = async () => {
   const productModalTitle = document.querySelector("#product-modal-title");
   const productModalDescription = document.querySelector("#product-modal-description");
   const productModalMeta = document.querySelector("#product-modal-meta");
+  const productModalService = document.querySelector("#product-modal-service");
   const productModalWhatsApp = document.querySelector("#product-modal-whatsapp");
   const productModalFavorite = document.querySelector("#product-modal-favorite");
   const productModalShare = document.querySelector("#product-modal-share");
@@ -519,6 +520,25 @@ const initializeSite = async () => {
     ]
       .concat((product.tags || []).map((tag) => `<span class="product-tag">${tag}</span>`))
       .join("");
+
+    const serviceSignals = [];
+    if (String(product.image || "").startsWith("http")) {
+      serviceSignals.push("Imagen referencial de línea cargada");
+    }
+    if (productHasMarker(product, "Más consultados")) {
+      serviceSignals.push("Modelo de alta consulta en salón");
+    }
+    if (productHasMarker(product, "Colección nueva") || productHasMarker(product, "Nuevos ingresos")) {
+      serviceSignals.push("Ingreso reciente para vidriera");
+    }
+    serviceSignals.push("Asesoramiento personalizado por WhatsApp");
+
+    productModalService.innerHTML = `
+      <strong>Señales comerciales</strong>
+      <div class="product-modal__service-grid">
+        ${serviceSignals.slice(0, 4).map((item) => `<span>${item}</span>`).join("")}
+      </div>
+    `;
 
     productModalWhatsApp.dataset.message = `Hola quiero consultar por ${product.name} (${product.modelCode})`;
     updateModalFavoriteButton(product._id);
