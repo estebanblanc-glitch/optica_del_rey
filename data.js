@@ -17,7 +17,7 @@
       heroButtonMessage: "Hola quiero asesoramiento sobre lentes, cristales o lentes de contacto",
       stockEyebrow: "Atención personalizada",
       stockTitle: "Todo para tu visión y tu estilo",
-      stockText: "Trabajamos con un catálogo amplio de armazones, cristales y lentes de contacto, con más de 140 alternativas para consultar por WhatsApp. Escribinos y te confirmamos opciones, colores y disponibilidad.",
+      stockText: "Trabajamos con un catálogo amplio de armazones, cristales y lentes de contacto, con más de 170 alternativas para consultar por WhatsApp. Escribinos y te confirmamos opciones, colores y disponibilidad.",
       stockButtonLabel: "Consultar stock completo",
       stockButtonMessage: "Hola quiero consultar stock y disponibilidad",
       aboutEyebrow: "Sobre nosotros",
@@ -50,15 +50,15 @@
     trustItems: ["Lentes de sol", "Receta", "Cristales", "Lentes de contacto"],
     stockStats: [
         {
-          "value": "85+",
+          "value": "96+",
           "label": "modelos de sol y receta"
         },
         {
-          "value": "28+",
+          "value": "32+",
           "label": "opciones en cristales"
         },
         {
-          "value": "32+",
+          "value": "38+",
           "label": "alternativas en contacto"
         }
       ],
@@ -1910,6 +1910,258 @@
             "Avizor",
             "UNI-SEN",
             "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Carrera Sol CA8046S",
+          "description": "Frente solar marcado con espíritu deportivo y una presencia muy comercial en vidriera.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60719.JPG",
+          "tags": [
+            "Sol",
+            "Carrera",
+            "CA8046S",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Oakley Sol OO9367",
+          "description": "Modelo solar técnico para uso intenso, muy cómodo y con impronta deportiva actual.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60777.JPG",
+          "tags": [
+            "Sol",
+            "Oakley",
+            "OO9367",
+            "Colección nueva"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Karün Sol KRU220",
+          "description": "Diseño solar contemporáneo con lectura premium y buena adaptación en uso diario.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an417825936q.jpg",
+          "tags": [
+            "Sol",
+            "Karün",
+            "KRU220",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Arnette Sol AN4302",
+          "description": "Armazón solar joven con buena cobertura y estilo urbano para todos los días.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an41782594n0.jpg",
+          "tags": [
+            "Sol",
+            "Arnette",
+            "AN4302",
+            "Colección nueva"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Vogue Sol VO5338S",
+          "description": "Línea solar femenina con calce amable y estética muy vigente en salón.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+          "tags": [
+            "Sol",
+            "Vogue",
+            "VO5338S",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Ray-Ban Sol RB2132",
+          "description": "Referencia solar muy buscada con presencia clásica y lectura moderna a la vez.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+          "tags": [
+            "Sol",
+            "Ray-Ban",
+            "RB2132",
+            "Colección nueva"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Oakley Receta OX8046",
+          "description": "Montura óptica liviana con perfil técnico y muy buena respuesta para uso intensivo.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+          "tags": [
+            "Receta",
+            "Oakley",
+            "OX8046",
+            "Más consultados"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Vogue Receta VO5484",
+          "description": "Diseño óptico de aire fashion con buena presencia y variantes de color consultables.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047810054.jpg",
+          "tags": [
+            "Receta",
+            "Vogue",
+            "VO5484",
+            "Colección nueva"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Ralph Receta RA7168",
+          "description": "Armazón de receta elegante en acetato, cómodo y con lectura comercial sobria.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047201254.jpg",
+          "tags": [
+            "Receta",
+            "Ralph",
+            "RA7168",
+            "Más consultados"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Arnette Receta AN7194",
+          "description": "Opción joven para receta con buen calce y una estética urbana fácil de vender.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+          "tags": [
+            "Receta",
+            "Arnette",
+            "AN7194",
+            "Colección nueva"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Ray-Ban Receta RX8903",
+          "description": "Montura liviana de receta con imagen reconocible y estructura cómoda para jornada completa.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+          "tags": [
+            "Receta",
+            "Ray-Ban",
+            "RX8903",
+            "Más consultados"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Cristales Antirreflejo UltraClear",
+          "description": "Tratamiento premium para mejorar transparencia, limpieza y confort visual diario.",
+          "image": "assets/product-04.svg",
+          "tags": [
+            "Cristales",
+            "Antirreflejo",
+            "UCLEAR",
+            "Más consultados"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales BlueGuard Digital",
+          "description": "Pensados para exposición intensiva a pantallas con terminación estética muy equilibrada.",
+          "image": "assets/product-05.svg",
+          "tags": [
+            "Cristales",
+            "BlueGuard",
+            "BG-DIG",
+            "Colección nueva"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales Progresivos Comfort Fit",
+          "description": "Diseño progresivo orientado a adaptación simple y lectura natural entre distancias.",
+          "image": "assets/product-06.svg",
+          "tags": [
+            "Cristales",
+            "Progresivos",
+            "CF-PRO",
+            "Más consultados"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales Sun Adaptive",
+          "description": "Cristales que acompañan cambios de luz exterior con buen confort y practicidad.",
+          "image": "assets/product-04.svg",
+          "tags": [
+            "Cristales",
+            "Fotocromáticos",
+            "SUN-ADP",
+            "Colección nueva"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Optimum Mensual Esférico 6u",
+          "description": "Reposición mensual con buena oxigenación y una relación calidad-precio muy competitiva.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Optimum",
+            "OME-6",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Optimum Multifocal Mensual",
+          "description": "Opción mensual multifocal con enfoque en comodidad y claridad para distintas distancias.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/d19e9a4255f7cc797b9bd785968fb0dc.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Optimum",
+            "OM-MF",
+            "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "FreshLook One-Day",
+          "description": "Lentes cosméticos diarios para cambio de look con recambio práctico y ágil.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "FLOD",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Opti-Free Express 355ml",
+          "description": "Solución multipropósito para limpieza, desinfección y conservación diaria.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "OF-EXP",
+            "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Avizor Lacrifresh Moisture",
+          "description": "Gotas humectantes compatibles con lentes de contacto para sequedad y cansancio ocular.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Avizor",
+            "LAC-MO",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Bi-Oh Limpiador Biotecnológico",
+          "description": "Limpieza segura para lentes, armazones, pantallas y superficies ópticas sin enjuague.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/727ce679412dfa88caaa8ea1a27d401c.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Bi-Oh",
+            "BIO-CLEAN",
+            "Colección nueva"
           ],
           "category": "Lentes de contacto"
         }

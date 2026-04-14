@@ -21,6 +21,7 @@ const initializeSite = async () => {
   const catalogBrandSelect = document.querySelector("#catalog-brand");
   const catalogLensTypeSelect = document.querySelector("#catalog-lens-type");
   const catalogFavoritesOnly = document.querySelector("#catalog-favorites-only");
+  const catalogHighlights = document.querySelector("#catalog-highlights");
   const catalogResults = document.querySelector("#catalog-results");
   const catalogPagination = document.querySelector("#catalog-pagination");
   const catalogSection = document.querySelector("#catalogo");
@@ -247,8 +248,41 @@ const initializeSite = async () => {
       .join("");
   };
 
+  const renderCatalogHighlights = () => {
+    const consultedCount = enrichedProducts.filter((product) => productHasMarker(product, "Más consultados")).length;
+    const newCount = enrichedProducts.filter(
+      (product) => productHasMarker(product, "Colección nueva") || productHasMarker(product, "Nuevos ingresos")
+    ).length;
+    const remoteImagesCount = enrichedProducts.filter((product) => product.images.some((image) => image.startsWith("http"))).length;
+
+    catalogHighlights.innerHTML = [
+      {
+        title: `${consultedCount} destacados listos para consultar`,
+        text: "El catálogo prioriza los modelos más pedidos y las líneas que más rotan por WhatsApp."
+      },
+      {
+        title: `${newCount} ingresos y colección nueva`,
+        text: "La selección arranca por novedades para que el cliente vea primero lo más fuerte del momento."
+      },
+      {
+        title: `${remoteImagesCount} fichas con imagen real`,
+        text: "Seguimos reforzando la vidriera digital con más referencias visuales públicas y mejor lectura comercial."
+      }
+    ]
+      .map(
+        (item) => `
+          <article class="catalog-highlight-card">
+            <strong>${item.title}</strong>
+            <span>${item.text}</span>
+          </article>
+        `
+      )
+      .join("");
+  };
+
   fillSelect(catalogBrandSelect, availableBrands, "Todas las marcas");
   fillSelect(catalogLensTypeSelect, availableLensTypes, "Todos los tipos");
+  renderCatalogHighlights();
 
   document.title = business.name;
   document.querySelector("meta[name='description']").setAttribute("content", business.description);
@@ -609,10 +643,19 @@ const initializeSite = async () => {
       .map(
         (product) => {
           const isFavorite = favoriteIds.has(product._id);
+          const highlightLabel = productHasMarker(product, "Más consultados")
+            ? "Más consultado"
+            : productHasMarker(product, "Colección nueva") || productHasMarker(product, "Nuevos ingresos")
+              ? "Nuevo"
+              : product.lensType;
           return `
             <article class="product-card reveal" data-category="${product.category}">
-              <img class="product-image" src="${product.images[0] || product.image}" alt="${product.name}" />
+              <div class="product-media">
+                <span class="product-badge${productHasMarker(product, "Más consultados") ? " product-badge--accent" : ""}">${highlightLabel}</span>
+                <img class="product-image" src="${product.images[0] || product.image}" alt="${product.name}" />
+              </div>
               <div class="product-body">
+                <span class="product-brandline">${product.brand} · ${product.modelCode}</span>
                 <h3>${product.name}</h3>
                 <p class="product-consult">Consultanos disponibilidad y asesoramiento por WhatsApp.</p>
                 <p class="product-description">${product.description}</p>
@@ -639,7 +682,7 @@ const initializeSite = async () => {
     if (favoritesOnly && count === 0) {
       catalogResults.textContent = "Todavía no tenés favoritos guardados.";
     } else {
-      catalogResults.textContent = count === 0 ? "No encontramos modelos con ese filtro." : `${count} modelos para consultar.`;
+      catalogResults.textContent = count === 0 ? "No encontramos modelos con ese filtro." : `${count} modelos para consultar. El orden actual prioriza destacados, novedades y fichas con mejor vidriera visual.`;
     }
 
     renderCatalogPagination(count);
