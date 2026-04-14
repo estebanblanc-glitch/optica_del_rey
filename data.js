@@ -17,7 +17,7 @@
       heroButtonMessage: "Hola quiero asesoramiento sobre lentes, cristales o lentes de contacto",
       stockEyebrow: "Atención personalizada",
       stockTitle: "Todo para tu visión y tu estilo",
-      stockText: "Trabajamos con un catálogo amplio de armazones, cristales y lentes de contacto, con más de 120 alternativas para consultar por WhatsApp. Escribinos y te confirmamos opciones, colores y disponibilidad.",
+      stockText: "Trabajamos con un catálogo amplio de armazones, cristales y lentes de contacto, con más de 140 alternativas para consultar por WhatsApp. Escribinos y te confirmamos opciones, colores y disponibilidad.",
       stockButtonLabel: "Consultar stock completo",
       stockButtonMessage: "Hola quiero consultar stock y disponibilidad",
       aboutEyebrow: "Sobre nosotros",
@@ -50,15 +50,15 @@
     trustItems: ["Lentes de sol", "Receta", "Cristales", "Lentes de contacto"],
     stockStats: [
         {
-          "value": "73+",
+          "value": "85+",
           "label": "modelos de sol y receta"
         },
         {
-          "value": "24+",
+          "value": "28+",
           "label": "opciones en cristales"
         },
         {
-          "value": "25+",
+          "value": "32+",
           "label": "alternativas en contacto"
         }
       ],
@@ -1658,6 +1658,258 @@
             "Avizor",
             "BIO-300",
             "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Armani Exchange Sol AX2034S",
+          "description": "Modelo solar contemporáneo con frente urbano y lectura limpia para uso diario.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/ax2023s60886g.jpg",
+          "tags": [
+            "Sol",
+            "Armani Exchange",
+            "AX2034S",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Vogue Sol VO4199S",
+          "description": "Lente solar de perfil fashion con calce cómodo y una presencia actual.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+          "tags": [
+            "Sol",
+            "Vogue",
+            "VO4199S",
+            "Colección nueva"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Ralph Sol RA5305U",
+          "description": "Propuesta solar elegante con líneas definidas y terminación versátil.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an417825936q.jpg",
+          "tags": [
+            "Sol",
+            "Ralph",
+            "RA5305U",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Ray-Ban Sol RB3447",
+          "description": "Diseño solar icónico de aire redondo para quienes buscan una referencia reconocible.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an416120886g.jpg",
+          "tags": [
+            "Sol",
+            "Ray-Ban",
+            "RB3447",
+            "Colección nueva"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Oakley Sol OO9102",
+          "description": "Modelo solar deportivo con muy buen calce para actividad y uso intenso.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/k60777.JPG",
+          "tags": [
+            "Sol",
+            "Oakley",
+            "OO9102",
+            "Más consultados"
+          ],
+          "category": "Sol"
+        },
+        {
+          "name": "Vogue Receta VO5432",
+          "description": "Armazón óptico femenino con buena liviandad, color y presencia en rostro.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047594354.jpg",
+          "tags": [
+            "Receta",
+            "Vogue",
+            "VO5432",
+            "Colección nueva"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Ralph Receta RA7155U",
+          "description": "Montura óptica en acetato con una lectura clásica actualizada y muy cómoda.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047810054.jpg",
+          "tags": [
+            "Receta",
+            "Ralph",
+            "RA7155U",
+            "Más consultados"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Equis Receta EQ135",
+          "description": "Diseño óptico versátil para uso diario con variantes de color consultables.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an60055805216.jpg",
+          "tags": [
+            "Receta",
+            "Equis",
+            "EQ135",
+            "Colección nueva"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Ray-Ban Receta RX7228",
+          "description": "Armazón moderno de receta con estructura cómoda y estética reconocible.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/rx7047201254.jpg",
+          "tags": [
+            "Receta",
+            "Ray-Ban",
+            "RX7228",
+            "Más consultados"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Arnette Receta AN7189",
+          "description": "Montura joven para jornada completa con impronta urbana y buena adaptación.",
+          "image": "https://grupoaltavista.com.uy/storage/products/thumbnails/an71642375.jpg",
+          "tags": [
+            "Receta",
+            "Arnette",
+            "AN7189",
+            "Colección nueva"
+          ],
+          "category": "Receta"
+        },
+        {
+          "name": "Cristales Drive Polar Night",
+          "description": "Alternativa pensada para manejo prolongado y reducción de reflejos en ruta.",
+          "image": "assets/product-06.svg",
+          "tags": [
+            "Cristales",
+            "Drive",
+            "DRIVE-PN",
+            "Más consultados"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales FreeForm Premium",
+          "description": "Diseño digital más preciso para mejorar adaptación, nitidez y confort.",
+          "image": "assets/product-04.svg",
+          "tags": [
+            "Cristales",
+            "FreeForm",
+            "FF-PREM",
+            "Colección nueva"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales Office Reader Plus",
+          "description": "Pensados para escritorio, lectura y pantallas con transición cómoda en interior.",
+          "image": "assets/product-05.svg",
+          "tags": [
+            "Cristales",
+            "Office",
+            "OR-PLUS",
+            "Más consultados"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Cristales Sport Curva Base 8",
+          "description": "Configuración de alto impacto para marcos deportivos y actividad exterior.",
+          "image": "assets/product-06.svg",
+          "tags": [
+            "Cristales",
+            "Sport",
+            "CB8-SPORT",
+            "Colección nueva"
+          ],
+          "category": "Cristales"
+        },
+        {
+          "name": "Air Optix Plus HydraGlyde Toric",
+          "description": "Versión tórica mensual para astigmatismo con confort sostenido y buena estabilidad.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "AOHG-T",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Air Optix Plus HydraGlyde Multifocal",
+          "description": "Alternativa multifocal mensual para visión versátil con muy buena humectación.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "AOHG-MF",
+            "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "FreshLook Colors",
+          "description": "Lentes cosméticos de color con o sin graduación para cambio sutil o marcado.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "FLC-CLR",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Opti-Free PureMoist 300ml",
+          "description": "Solución multiacción para limpieza diaria, desinfección e hidratación prolongada.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "OF-PM300",
+            "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "AoSept Plus HydraGlyde 360ml",
+          "description": "Sistema de peróxido sin conservantes recomendado para usuarios sensibles.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/ef70f9265fa47dabc1be988c662359d2.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Alcon",
+            "AOSEPT-360",
+            "Más consultados"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Avizor Alvera 350ml",
+          "description": "Solución multipropósito con aloe vera para mejorar humectación y confort ocular.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Avizor",
+            "ALV-350",
+            "Colección nueva"
+          ],
+          "category": "Lentes de contacto"
+        },
+        {
+          "name": "Avizor Unica Sensitive 350ml",
+          "description": "Solución multipropósito para ojos sensibles con extra confort y lubricación.",
+          "image": "https://grupoaltavista.com.uy/storage/pages/1721eb9ee064106cd66c5993dedc1ea3.jpg",
+          "tags": [
+            "Lentes de contacto",
+            "Avizor",
+            "UNI-SEN",
+            "Más consultados"
           ],
           "category": "Lentes de contacto"
         }

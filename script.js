@@ -140,6 +140,11 @@ const initializeSite = async () => {
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase();
 
+  const productHasMarker = (product, marker) => {
+    const searchable = normalizeSearchText(`${product.category} ${(product.tags || []).join(" ")}`);
+    return searchable.includes(normalizeSearchText(marker));
+  };
+
   const getPaymentChipClass = (method) => {
     const normalized = normalizeSearchText(method);
     if (normalized.includes("visa")) return "pay-chip--visa";
@@ -203,23 +208,35 @@ const initializeSite = async () => {
     return found ? found[0] : "Consultar";
   };
 
-  const enrichedProducts = products.map((product, index) => ({
-    ...product,
-    _id: String(index),
-    brand: inferBrand(product),
-    lensType: inferLensType(product),
-    modelCode: getModelCode(product),
-    images: (() => {
-      const imageList = [];
-      if (Array.isArray(product.images)) {
-        imageList.push(...product.images);
-      }
-      if (product.image) {
-        imageList.unshift(product.image);
-      }
-      return [...new Set(imageList.filter(Boolean).map((item) => String(item).trim()))];
-    })()
-  }));
+  const enrichedProducts = products.map((product, index) => {
+    const imageList = [];
+    if (Array.isArray(product.images)) {
+      imageList.push(...product.images);
+    }
+    if (product.image) {
+      imageList.unshift(product.image);
+    }
+
+    const normalizedImages = [...new Set(imageList.filter(Boolean).map((item) => String(item).trim()))];
+    const sortPriority = productHasMarker(product, "Más consultados")
+      ? 3
+      : productHasMarker(product, "Colección nueva") || productHasMarker(product, "Nuevos ingresos")
+        ? 2
+        : normalizedImages.some((image) => image.startsWith("http"))
+          ? 1
+          : 0;
+
+    return {
+      ...product,
+      _id: String(index),
+      _orderIndex: index,
+      sortPriority,
+      brand: inferBrand(product),
+      lensType: inferLensType(product),
+      modelCode: getModelCode(product),
+      images: normalizedImages
+    };
+  });
 
   const availableBrands = [...new Set(enrichedProducts.map((item) => item.brand))].sort((a, b) => a.localeCompare(b, "es"));
   const availableLensTypes = [...new Set(enrichedProducts.map((item) => item.lensType))].sort((a, b) => a.localeCompare(b, "es"));
@@ -551,10 +568,10 @@ const initializeSite = async () => {
 
     if (catalogSortOrder === "az") {
       filtered = [...filtered].sort((a, b) => a.name.localeCompare(b.name, "es"));
-    }
-
-    if (catalogSortOrder === "za") {
+    } else if (catalogSortOrder === "za") {
       filtered = [...filtered].sort((a, b) => b.name.localeCompare(a.name, "es"));
+    } else {
+      filtered = [...filtered].sort((a, b) => b.sortPriority - a.sortPriority || a._orderIndex - b._orderIndex);
     }
 
     return filtered;
